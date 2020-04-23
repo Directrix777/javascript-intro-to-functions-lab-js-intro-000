@@ -13,7 +13,7 @@ function logShout(string)
   console.log(string.toUpperCase())
 }
 
-function whisper(string)
+function logwhisper(string)
 {
   console.log(string.toLowerCase())
 }
@@ -30,6 +30,6 @@ function sayHiToGrandma(string)
   }
   else if(string == "I love you, Grandma.")
   {
-    return "I love you too."
+    return "I love you, too."
   }
 }
